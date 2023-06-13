@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -i "root" /etc/passwd
+sort | uniq -u
